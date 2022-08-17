@@ -6,3 +6,5 @@ __pycache__
 !*.zip
 *.db
 .idea
+*.tsv
+*.csv
