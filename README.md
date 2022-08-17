@@ -68,8 +68,8 @@ We chose two hours, since to us it felt like the difference between a 'normal' m
 After running a T-test with the 2 samples, we got a resulting t-statistic of 8.512566342699477, with a p-value of 2.9394100040933126e-17. Since the p-value was lower than our alpha level of .05, we were able to reject the null hypothesis, and found that movies with a long length did, on average, perform better than movies with a short length.
 
 For the release data of a movie, we chose this Hypotheiss:
-H0: Movies that release in warmer seasons (Summer, Spring) on average do not have larger worldwide profit than those released in colder ones (Winter, Fall).
-Ha: Movies that release in warmer seasons (Summer, Spring) on average have larger worldwide profit than those released in colder ones (Winter, Fall).
+- H0: Movies that release in warmer seasons (Summer, Spring) on average do not have larger worldwide profit than those released in colder ones (Winter, Fall).
+- Ha: Movies that release in warmer seasons (Summer, Spring) on average have larger worldwide profit than those released in colder ones (Winter, Fall).
 We chose to compare warm months to cold months since the bar graph above seemed to indicate that there was a clear gap between the warm months and the cold months. We thought that warmer months could lead to better performing movies since people are more likely to be out and about, and kids are out of school and able to watch more movies, whereas in the winter, people are more likely to remain at home.
 
 After running a T-test with the 2 samples, we gota  resulting t-statistic of 3.9231631768619604 and a p-value of 4.656534401995471e-05. Since the p-value was lower than our alpha level of .05, we were able to reject the null hypothesis, and found that movies released in warmer months did, on average, perform better than movies released in colder months.
