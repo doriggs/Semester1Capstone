@@ -20,7 +20,12 @@ Authored by:
 - Douglas Riggs
 - Andrew Yang
 
+* [Presentation](./Presentation.pptx)
+* [Notebook](./student.ipynb)
 
+
+
+### This is a summary of our Project
 * [***Overview:***](#overview)
 * [***Business Understanding:***](#business-understanding)
 * [***Data Understanding And Analysis***](#data-understanding-and-analysis)
@@ -28,6 +33,7 @@ Authored by:
 * [***Conclusion***](#conclusion)
 
 ## Overview
+
 This Project is to interpret Data for our client, Computing Vision, to create the best movie possible. We'll clean and interpret data, create visualizations, and perform statistical analysis to give a few reccomendations on how to create a successful movie.
 
 ## Business Understanding
@@ -58,6 +64,7 @@ We found that movies released in warmer months (Spring and Summer) performed bet
 ![Season Graph](./seasonal_profit.png)
 
 ## Statistical Communication
+
 To solidify our results, we ran statistical analysis on our data for both shorter vs longer movies as well as for warm release dates vs cold release dates.
 
 For the runtime length of the movie, we chose these Hypothises:
@@ -77,3 +84,5 @@ We chose to compare warm months to cold months since the bar graph above seemed 
 After running a T-test with the 2 samples, we gota  resulting t-statistic of 3.9 and a p-value of 4.6e-05. Since the p-value was lower than our alpha level of .05, we were able to reject the null hypothesis, and found that movies released in warmer months did, on average, perform better than movies released in colder months.
 
 ## Conclusion
+
+Computing Vision should create a long adventure movie and release it in the summer. With this strategy, they could land in a median profit range of $374 million.
