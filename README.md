@@ -16,27 +16,28 @@ This repo has our [Presentation](./pdfs/Presentation.pdf), which gives our findi
 * [***Data Understanding And Analysis***](#data-understanding-and-analysis)
 * [***Statistical Communication***](#statistical-communication)
 * [***Conclusion***](#conclusion)
+
 This Project is to interpret Data for our client, Computing Vision, to create the best movie possible. We'll clean and interpret data, create visualizations, and perform statistical analysis to give a few reccomendations on how to create a successful movie.
 
 ## <ins>Business Understanding</ins>
 
-We are working for a company called Computing Vision which wants to create a new movie studio. We need to explore characteristics that movies currently performing well in the box office have. Then, we'll create analysis from our data exploration and give Computing Vision reccomendations on the best approach to creating a successful movie.
+We are working for a company called Computing Vision which wants to create a new movie studio. Our goal is to explore characteristics that movies currently performing well in the box office have. Then, our objective is to analyze those characteristics and give Computing Vision reccomendations on the best approach to creating a successful movie.
 
 ## <ins>Data Understanding and Analysis</ins>
 
-We used data from publicly available websites storing information about movies. We used IMDB, TN, BOM, and TMDB.
+We used data from publicly available websites storing information about movies - IMDB, TN movie budgets, and BOM.
 
 The data from these databases includes movie titles, release date, ratings, production cost, gross revenue domestic and worldwide, language, movie genre, actors, actresses, directors, producers, and writers.
 
-For our analysis, we chose gross profit (worldwide gross revenue - production budget) as the best indicator of a movie's success. It's a pretty simple metric, where more money = more success.
+For our analysis, we chose worldwide profit (worldwide gross revenue - production budget) as the best indicator of a movie's success. For a new movie studio, profit is the main focus. This allows us to take into account the cost of making the movie as well as the revenue increasing qualities of the movie.
 
-As far as movie characteristics go, we investigated release dates, ratings, movie genre, runtime, and cast/production crew to look for factors that were present in good movies. The best characteristics that we were able to differentiate were runtime, genre, and release date.
+As far as movie characteristics go, we investigated release dates, ratings, movie genre, runtime, and cast/production crew to look for factors that were present in good movies. We found that the characteristics with the greatest impact on a movie's performance were runtime, genre, and release date.
 
-We found that the most successful genre was Sci-Fi
+We found that the most successful genre was Sci-Fi.
 
 ![Genre Graph](./images/median_net_profit_no_animation.png)
 
-We found that movies released in warmer months (Spring and Summer) performed better than movies released in colder months (Fall and Winter)
+We found that movies released in warmer months (Spring and Summer) performed better than movies released in colder months (Fall and Winter).
 
 ![Season Graph](./images/seasonal_profit.png)
 
