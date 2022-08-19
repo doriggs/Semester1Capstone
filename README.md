@@ -8,7 +8,7 @@ Authored by:
 - Andrew Yang
 
 ## <ins>Repo Structure</ins>
-This repo has our [Presentation](./Presentation.pdf), which gives our findings in a non-technical presentation. It also has our [Notebook](./student.ipynb) which is a walkthrough of our process and our code.
+This repo has our [Presentation](./pdfs/Presentation.pdf), which gives our findings in a non-technical presentation. It also has our [Notebook](./student.ipynb) which is a walkthrough of our process and our code.
 
 
 ## <ins>Overview</ins>
@@ -34,16 +34,16 @@ As far as movie characteristics go, we investigated release dates, ratings, movi
 
 We found that the most successful genre was Sci-Fi
 
-![Genre Graph](./median_net_profit_no_animation.png)
-
-We found that longer movies tended to create more profit than shorter movies.
-
-![Runtime Graph](./runtime_profit.png)
-
+![Genre Graph](./images/median_net_profit_no_animation.png)
 
 We found that movies released in warmer months (Spring and Summer) performed better than movies released in colder months (Fall and Winter)
 
-![Season Graph](./seasonal_profit.png)
+![Season Graph](./images/seasonal_profit.png)
+
+We found that longer movies tended to create more profit than shorter movies.
+
+![Runtime Graph](./images/runtime_profit.png)
+
 
 ## <ins>Statistical Communication</ins>
 
