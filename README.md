@@ -50,9 +50,9 @@ For our analysis, we chose gross profit (worldwide gross revenue - production bu
 
 As far as movie characteristics go we first filtered out non-english movies, since our client's new movie studio is based in America. We investigated release dates, ratings, movie genre, runtime, and cast/production crew to look for factors that were present in good movies. The best characteristics that we were able to differentiate were runtime, genre, and release date.
 
-We found that the most successful genre was Adventure.
+We found that the most successful genre was Sci-Fi
 
-![Genre Graph](./adventure_profit.png)
+![Genre Graph](./median_net_profit_no_animation.png)
 
 We found that longer movies tended to create more profit than shorter movies.
 
@@ -85,4 +85,4 @@ After running a T-test with the 2 samples, we gota  resulting t-statistic of 3.9
 
 ## Conclusion
 
-Computing Vision should create a long adventure movie and release it in the summer. With this strategy, they could land in a median profit range of $374 million.
+Computing Vision should create a long Sci-Fi movie and release it in the summer. With this strategy, movies had a median profit of $443 million, so Computing Vision could expect to do very well at the box office.
