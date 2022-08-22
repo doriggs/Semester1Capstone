@@ -8,7 +8,7 @@ Authored by:
 - Andrew Yang
 
 ## <ins>Repo Structure</ins>
-This repo has our [Presentation](./pdfs/presentation_group_2.pdf), which gives our findings in a non-technical presentation. It also has our [Notebook](./student.ipynb) which is a walkthrough of our process and our code.
+This repo has our [Presentation](./pdfs/presentation.pdf), which gives our findings in a non-technical presentation. It also has our [Notebook](./student.ipynb) which is a walkthrough of our process and our code.
 
 
 ## <ins>Overview</ins>
